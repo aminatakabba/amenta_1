@@ -1,0 +1,29 @@
+.burgerHeader {
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 65px;
+    right: 20px;
+    /* display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;    */
+}
+.burgerHeaderDiv {
+    width: 2.5rem;
+    height: 0.25rem;
+    background-color: #000000;
+}
+.burgerHeader:hover > .burgerHeaderDiv{
+    background-color: #c792df;
+}
+.itm:hover {
+    color: #dcabdf;
+    border-bottom: 3px solid #dcabdf;
+}
+
+
+/* @media (min-width: 769px) {
+    .burgerHeader {
+        visibility: hidden;
+    }
+} */
