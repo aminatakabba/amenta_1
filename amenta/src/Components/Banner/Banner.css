@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     border-radius: 5px;
     margin: 80px;
-    padding: 200px 200px 100px 200px;
+    padding: 100px 100px 100px 150px;
     /* border: 0px solid #c792df81; */
 }
 .banner__Right > h1 {
@@ -18,20 +18,21 @@
 }
 .banner__Left {
     background-color: #C792DF;
-    /* margin: 0px 0px 0px 0px; */
 }
 .banner__LeftImg {
     background-color: #C792DF;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 .banner__LeftDiv {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #c792df81;
+    margin: 0px;
+
 }
 h2, p {
     background-color: #D9BEE5;
@@ -40,10 +41,16 @@ h2, p {
 @media (max-width: 1040px) {
     .banner__LeftDiv {
         padding-top: 40px;
+        
     }
     .banner {
         padding-right: auto;
         padding-left: auto;
+        /* margin-right: auto; */
+        
+    }
+    .banner__Right > h1 {
+        font-size: 40px;
     }
 }
 @media (max-width: 768px) {
@@ -54,6 +61,8 @@ h2, p {
     .banner__Right > h1 {
         font-size: 40px;
     }
+    /* margin: 0px; */
+
 }
 @media (max-width: 426px) {
     .banner {
@@ -71,8 +80,8 @@ h2, p {
 }
 @media (max-width: 320px) {
     .banner {
-        padding: 50px 25px 100px 25px;
-        margin-right: -20px;
+        padding: 25px 10px 25px 25px;
+        margin-right: -40px;
     }
     .banner__Right > h1 {
         font-size: 25px;
