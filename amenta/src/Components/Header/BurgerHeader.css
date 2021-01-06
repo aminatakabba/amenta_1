@@ -22,8 +22,8 @@
 }
 
 
-/* @media (min-width: 769px) {
+@media (min-width: 1040px) {
     .burgerHeader {
         visibility: hidden;
     }
-} */
+}
