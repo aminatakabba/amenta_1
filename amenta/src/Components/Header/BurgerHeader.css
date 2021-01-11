@@ -4,6 +4,7 @@
     position: fixed;
     top: 65px;
     right: 20px;
+    background-color: transparent;
     /* display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;    */

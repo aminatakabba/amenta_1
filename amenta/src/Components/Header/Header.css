@@ -4,6 +4,7 @@
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
+    /* position: fixed; */
 }
 .header__logo > img {
     width: 250px;

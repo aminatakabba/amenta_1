@@ -15,6 +15,7 @@
 }
 .banner__Right {
     background-color: #D9BEE5;
+    padding-top: 50px;
 }
 .banner__Left {
     background-color: #C792DF;
@@ -38,15 +39,27 @@ h2, p {
     background-color: #D9BEE5;
     text-align: center;
 }
+@media (max-width: 1040px) and (min-width: 780px) {
+    .banner__Right {
+        padding-top: 90px;
+    }
+}
 @media (max-width: 1040px) {
     .banner__LeftDiv {
         padding-top: 40px;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .banner {
-        padding-right: auto;
-        padding-left: auto;
+        /* padding-right: auto;
+        padding-left: auto; */
         /* margin-right: auto; */
+        margin-right: auto;
+        margin-left: auto;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
         
     }
     .banner__Right > h1 {
