@@ -8,7 +8,7 @@ function Banner() {
                 <h1>front end web </h1>
                 <h1>and software </h1>
                 <h1>development </h1>
-                <h1>agency</h1>
+                <h1>services</h1>
             </div>
 
             <div className="banner_Left">

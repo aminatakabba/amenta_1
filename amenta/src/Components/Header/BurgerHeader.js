@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import './BurgerHeader.css';
-import RightHeader from './RightHeader'
+import React from 'react';
+// import './BurgerHeader.css';
+// import RightHeader from './RightHeader'
 
 function BurgerHeader() {
     return (

@@ -1,0 +1,10 @@
+.offers {
+    width: 200px;
+}
+.offers > h1 {
+    font-size: 20px;
+}
+.offers > p {
+    font-size: 15px;
+    background-color: transparent;
+}
