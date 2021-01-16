@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css'
-
+import portrait  from '../img/ami.jpg'
 function Banner() {
     return (
         <div className="banner">
@@ -13,7 +13,9 @@ function Banner() {
 
             <div className="banner_Left">
                 <div className="banner__LeftDiv">
-                    <div className="banner__LeftImg"></div>
+                    <div className="banner__LeftImg">
+                        <img src={portrait} className="portrait"/>
+                    </div>
                     <h2>aminata kabba</h2>
                     <p>behind the code</p>
                 </div>
