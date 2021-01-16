@@ -10,7 +10,7 @@ import website from '../img/website.png'
 function Offer() {
     return (
         <div className="offer">
-                <div className="offfer__line1">
+                <div className="offer__line1">
                     <div className="offer__one">
                         <img src={laptop} className="offer__img"/>
                         <Offers 
@@ -37,32 +37,32 @@ function Offer() {
                     </div>
                 </div>
 
-            <div className="offer__line2">
-                <div className="offer__one">
-                    <img src={laptop} className="offer__img"/>
-                    <Offers 
-                        title="Web Developer" 
-                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
-                        className="offer__offers"
-                    /> 
+                <div className="offer__line2">
+                    <div className="offer__one">
+                        <img src={laptop} className="offer__img"/>
+                        <Offers 
+                            title="Web Developer" 
+                            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+                            className="offer__offers"
+                        /> 
+                    </div>
+                    <div className="offer__one">
+                        <img src={device} className="offer__img"/>
+                        <Offers 
+                            title="Web Developer" 
+                            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+                            className="offer__offers"
+                        /> 
+                    </div>
+                    <div className="offer__one">
+                        <img src={website} className="offer__img"/>
+                        <Offers 
+                            title="Web Developer" 
+                            paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
+                            className="offer__offers"
+                        /> 
+                    </div>
                 </div>
-                <div className="offer__one">
-                    <img src={device} className="offer__img"/>
-                    <Offers 
-                        title="Web Developer" 
-                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
-                        className="offer__offers"
-                    /> 
-                </div>
-                <div className="offer__one">
-                    <img src={website} className="offer__img"/>
-                    <Offers 
-                        title="Web Developer" 
-                        paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" 
-                        className="offer__offers"
-                    /> 
-                </div>
-            </div>
         </div>
     )
 }

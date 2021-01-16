@@ -1,19 +1,52 @@
-.offer_one {
-    background-color: pink;
+.offer__one {
+    /* background-color: pink;
     width: 200px;
     height: 200px;
     display: flex;
-    justify-items: center;
-    border: 2px solid black;
+    justify-items: center; */
+    border: 1px solid black;
+    box-shadow: 5px 10px #d0c4dfa2;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .offer__img {
     width: 100px;
     height: 100px;
-    margin: 0px;
+    align-content: center;
+    margin-left: 60px;
 }
 .offer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.offer__line1, .offer__line2 {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+}
+
+.offer__one:hover {
+    transform: scale(1.1); 
+}
+
+@media (max-width: 769px) and (min-width: 426px) {
+    .offer__line1, .offer__line2 {
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 426px) {
+    .offer__line1, .offer__line2 {
+        margin-left: 80px;
+    }
+
+}
+@media (max-width: 321px) {
+    .offer__line1, .offer__line2 {
+        margin-left: 50px;
+    }
+
 }
