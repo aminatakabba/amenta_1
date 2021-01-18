@@ -1,0 +1,101 @@
+.contact {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:100px;
+    
+}
+.contact__sub {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #D9BEE5;
+}
+.contact__right {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9BEE5;
+}
+.contact__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D9BEE5;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact__leftDiv > img {
+    width: 300px;
+    background-color: #D9BEE5;
+}
+.contact__leftDiv {
+    background-color: #D9BEE5;
+    display: flex;
+    flex-direction: column;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    background-color: #D9BEE5;
+}
+.contact__rightInput {
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid #D9BEE5;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+.contact__leftDivRadio {
+    background-color: #D9BEE5;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.contact__right >textarea {
+    height: 400px !important;
+}
+.contact >h1 {
+    font-size: 50px;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact__leftDiv > button {
+    justify-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact__leftDiv >button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #c792df;
+    cursor: pointer;
+}
+.contact__leftDiv >button:hover {
+    background-color: #976eaa;
+}
+@media (max-width: 768px) {
+    .contact__sub {
+        flex-direction: column;
+    }
+    .contact {
+        width: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact__rightInput {
+        width: 275px;
+    }
+    .contact__right >textarea {
+        width: 275px !important;
+        height: 300px !important;
+    }
+}
