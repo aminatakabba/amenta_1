@@ -2,6 +2,7 @@
     width: 400px;
     height: 400px;
     object-fit: contain;
+    cursor: pointer;
 }
 .projects {
     /* display: grid;

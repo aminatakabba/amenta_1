@@ -1,4 +1,5 @@
 import Banner from '../Banner/Banner';
+import DevStages from '../DevStages/DevStages';
 import Header from '../Header/Header';
 import Offer from '../Offer/Offer';
 import Projects from '../Projects/Projects';
@@ -13,6 +14,7 @@ function App() {
       <Story />
       <Offer />
       <Projects />
+      <DevStages />
     </div>
   );
 }

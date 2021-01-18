@@ -31,6 +31,28 @@ function Projects() {
                         alt="recipe generator project" 
                         className="project__img"/>
                 </div>
+
+                <div className="project__div">
+                    <img 
+                        src={project2} 
+                        alt="amazon project" 
+                        className="project__img"/>
+                </div>
+
+                <div className="project__div">
+                    <img 
+                        src={project3} 
+                        alt="recipe generator project" 
+                        className="project__img"/>
+                </div>
+
+                <div className="project__div">
+                    <img 
+                        src={project1} 
+                        alt="wise advise project" 
+                        className="project__img"/> 
+                </div>
+
                 </div>
         </div>
     )
