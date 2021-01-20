@@ -28,7 +28,10 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+.offer >h1 {
+    text-align: center;
+    font-size: 50px;
+}
 .offer__one:hover {
     transform: scale(1.1); 
 }

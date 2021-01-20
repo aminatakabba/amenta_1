@@ -8,6 +8,9 @@
     background-color: #D0C4DF;
     margin-top: 40px;
 }
+.cirlce:hover {
+    background-color: #976eaa;
+}
 .devstages__stage{
     display: flex;
     justify-content: center;

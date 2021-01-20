@@ -6,6 +6,7 @@ import Offer from '../Offer/Offer';
 import Projects from '../Projects/Projects';
 import Story from '../Story/Story';
 import './App.css';
+import { Link } from 'react-router-dom'
 
 function App() {
   return (

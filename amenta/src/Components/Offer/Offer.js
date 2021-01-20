@@ -10,8 +10,9 @@ import website from '../img/website.png'
 function Offer() {
     return (
         <div className="offer">
+            <h1>what we offer</h1>
                 <div className="offer__line1">
-                    <div className="offer__one">
+                        <div className="offer__one">
                         <img src={laptop} className="offer__img"/>
                         <Offers 
                             title="Web Developer" 

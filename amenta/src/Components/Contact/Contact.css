@@ -6,13 +6,13 @@
     margin-right: auto;
     margin-left: auto;
     margin-top:100px;
-    
 }
 .contact__sub {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #D9BEE5;
+    border-radius: 5px;
 }
 .contact__right {
     display: flex;
@@ -89,13 +89,21 @@
         width: auto;
     }
 }
-
+@media (max-width: 425px) {
+    .contact {
+        width: 390px;
+    }
+    .contact__rightInput {
+        width: 320px;
+    }
+}
 @media (max-width: 375px) {
     .contact__rightInput {
-        width: 275px;
+        width: 260px;
     }
+    
     .contact__right >textarea {
-        width: 275px !important;
+        width: 260px !important;
         height: 300px !important;
     }
 }
